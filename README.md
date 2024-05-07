@@ -7,7 +7,9 @@ Nosana works pretty simple. We have markets that are [insert more info]. And the
 
 - Below, you can write the following commands in terminal to get started running AI inference on our network. [Download this file into your desktop](nosana.io)
 - And run the command below in terminal(make sure that you're in the desktop folder)
-```nosana job post --file llama3.json --market RXP7JK8MTY4uPJng4UjC9ZJdDDSG6wGr8pvVf3mwgXF --wait```
+```
+nosana job post --file llama3.json --market RXP7JK8MTY4uPJng4UjC9ZJdDDSG6wGr8pvVf3mwgXF --wait
+```
 
 ### How To Write A Nosana Job
 
