@@ -5,15 +5,16 @@ Nosana is a DePin(Decentralized Physical Infrastructure) that uses the Solana Bl
 ### How To Use Nosana?
 Nosana works pretty simple. We have markets that are [insert more info]. And there are jobs, docker images that you can run on our NVIDIA Nodes of your AI inference.
 
-- Below, you can write the following commands in terminal to get started running AI inference on our network. [Download this file into your desktop](nosana.io)
-- And run the command below in terminal(make sure that you're in the desktop folder)
+- Below, you can write the following commands in terminal to get started running AI inference on our network. 
+- Git clone this repository
+- And run the command below in terminal(make sure that you're still in the repository folder)
 ```
-nosana job post --file llama3.json --market RXP7JK8MTY4uPJng4UjC9ZJdDDSG6wGr8pvVf3mwgXF --wait
+nosana job post --file image_gen_jobs/image_gen_1.json --market RXP7JK8MTY4uPJng4UjC9ZJdDDSG6wGr8pvVf3mwgXF --wait
 ```
-
+We also have several other types of jobs with different models that you can use to run common inference. Just replace the value of the ``file`` to the desired folder/file 
 ### How To Write A Nosana Job
 
-This is the basic structure of a nosana job 
+This is the basic structure of a nosana job (todo: explain parameters)
 
 ```
 {
@@ -35,3 +36,6 @@ This is the basic structure of a nosana job
   ]
 }
 ```
+
+### Running Jobs Locally
+* Please note that their is a hardware requirement for this section*
