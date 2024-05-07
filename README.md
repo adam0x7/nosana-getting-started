@@ -38,4 +38,4 @@ This is the basic structure of a nosana job (todo: explain parameters)
 ```
 
 ### Running Jobs Locally
-* Please note that their is a hardware requirement for this section*
+* Please note that there is a hardware requirement for this section*
