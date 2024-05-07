@@ -1,6 +1,6 @@
 # Getting Started with Nosana
 
-### Nosana is a DePin(Decentralized Physical Infrastructure) that uses the Solana Blockchain to provide the Open Source AI Community with full decentralized compute to run AI inference
+Nosana is a DePin(Decentralized Physical Infrastructure) that uses the Solana Blockchain to provide the Open Source AI Community with full decentralized compute to run AI inference
 
 ### How To Use Nosana?
 Nosana works pretty simple. We have markets that are [insert more info]. And there are jobs, docker images that you can run on our NVIDIA Nodes of your AI inference.
