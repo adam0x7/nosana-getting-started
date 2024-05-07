@@ -36,6 +36,7 @@ This is the basic structure of a nosana job (todo: explain parameters)
   ]
 }
 ```
+If you don't have the equipment to build docker images that you can run your own job on, Nosana has already given some pre built images for you to use below
 
 ### Running Jobs Locally
 * Please note that there is a hardware requirement for this section*
