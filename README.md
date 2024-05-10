@@ -11,6 +11,7 @@ Nosana works pretty simple. We have markets that are [insert more info]. And the
 ```
 nosana job post --file image_gen_jobs/image_gen_1.json --market RXP7JK8MTY4uPJng4UjC9ZJdDDSG6wGr8pvVf3mwgXF --wait
 ```
+
 We also have several other types of jobs with different models that you can use to run common inference. Just replace the value of the ``file`` to the desired folder/file 
 ### How To Write A Nosana Job
 
@@ -39,4 +40,5 @@ This is the basic structure of a nosana job (todo: explain parameters)
 If you don't have the equipment to build docker images that you can run your own job on, Nosana has already given some pre built images for you to use below
 
 ### Running Jobs Locally
-* Please note that there is a hardware requirement for this section*
+* Please note that there is a hardware requirement for this section
+* 
