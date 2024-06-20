@@ -1,0 +1,18 @@
+{
+  "version": "0.1",
+  "type": "container",
+  "meta": {
+    "trigger": "cli"
+  },
+  "ops": [
+    {
+      "type": "container/run",
+      "id": "ollama",
+      "args": {
+        "cmd": ["'Tony was a tiny hawk'"], //your prompt here inside of the `` marks
+        "image": "docker.io/jeisses/tinyllama:v4",
+        "gpu": true
+      }
+    }
+  ]
+}
