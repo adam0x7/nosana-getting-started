@@ -1,0 +1,18 @@
+{
+  "version": "0.1",
+  "type": "container",
+  "meta": {
+    "trigger": "cli"
+  },
+  "ops": [
+    {
+      "type": "container/run",
+      "id": "ollama",
+      "args": {
+        "cmd": ["bash", "/run_llm.sh", "YOUR_PROMPT"],
+        "image": "docker.io/ben1t0/tiny-llm:latest",
+        "gpu": true
+      }
+    }
+  ]
+}
